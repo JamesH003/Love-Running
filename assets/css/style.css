@@ -208,8 +208,25 @@ hr {
 /* event times */
 
 .times {
-    background: url('../images/dublin-city.webp') no-repeat center center;
+    background: url('../images/dublin-city.webp') no-repeat center;
     background-size: cover;
     width: 100%;
     overflow: hidden;
+    display: flex;
+    
+}
+
+.times div {
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, .6);
+    height: 300px;
+    flex-direction: column;
+    flex-grow: 1;
+    padding: 30px 0 0 10px;
+    text-align: center;
+    border: 2px solid #fff;
+}
+
+.times h2 {
+    color: #fafafa
 }
