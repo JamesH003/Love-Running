@@ -10,8 +10,8 @@ body {
     font-family: Lato, sans-serif;
     font-weight: 300;
     color: #3a3a3a;
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
 }
 
 /* headings and logo */
@@ -33,6 +33,7 @@ h1, h2 {
 #logo {
     font-size: 280%;
     text-decoration: none;
+    margin-left: 30px;
 }
 
 .logo-underline {
@@ -128,4 +129,34 @@ h1, h2 {
     right: 150px;
 
     position: absolute;
+}
+
+#club-ethos h1 {
+    text-align: center;
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-around;
+    height: 600px;
+    border: 3px solid lime;
+}
+
+.about {
+    padding-top: 30px;
+}
+
+.left {
+    background-color: blue;
+    width: 33%;
+}
+
+.center {
+    background-color: silver;
+    width: 33%;
+}
+
+.right {
+    background-color: green;
+    width: 33%;
 }
