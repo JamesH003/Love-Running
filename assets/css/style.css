@@ -230,3 +230,22 @@ hr {
 .times h2 {
     color: #fafafa
 }
+
+/* footer */
+
+footer {
+    height: 150px;
+}
+
+.social-networks {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1%;
+    padding: 4% 16% 5% 16%;
+    font-size: 160%;
+    list-style-type: none;
+}
+
+li i {
+    color: #3a3a3a;
+}
