@@ -338,6 +338,16 @@ li i {
     display: none;
    }
 
+   .times {
+    width: 100%;
+    flex-direction: column;
+    height: 920px;
+   }
+
+   .times div {
+    padding: 25px 0 0 10px;
+   }
+
 }
 
 /* For medium screen sizes from 950px wide and down */
