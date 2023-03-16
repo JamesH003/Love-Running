@@ -139,7 +139,7 @@ h1, h2 {
 
 .container2 {
     display: flex;
-    justify-content: space-around;
+    /* justify-content: space-around; */
     height: 600px;
     /* border: 3px solid lime; */
 }
@@ -310,7 +310,7 @@ li i {
    }
 
    .right-about-heading {
-    padding-bottom: 75px;
+    padding-bottom: 65px;
    }
 
    .middle {
