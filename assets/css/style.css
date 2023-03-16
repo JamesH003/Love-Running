@@ -329,4 +329,8 @@ li i {
     margin: 0;
    }
 
+   hr {
+    display: none;
+   }
+
 }
