@@ -268,14 +268,17 @@ li i {
 /* For larger to medium screens size from 1200px wide and down */
 @media screen and (max-width: 1200px) {
     #club-ethos {
-        width: 65%;
+        width: 100%;
         height: 1200px;
         margin: 0 auto;
+        display: flex;
+        flex-direction: column;
     }
 
     #club-ethos .welcome {
         padding: 30px 0;
         margin: 0;
+        /* justify-content: center; */
     }
 
    .container2 {
@@ -295,11 +298,19 @@ li i {
     width: 100%;
    }
 
+   .left-about-heading {
+    padding-bottom: 50px;
+   }
+
    .right-about-heading {
     order: 2;
     padding: 0;
     margin: 0;
     /* text-align: center; */
+   }
+
+   .right-about-heading {
+    padding-bottom: 75px;
    }
 
    .middle {
@@ -318,8 +329,4 @@ li i {
     margin: 0;
    }
 
-   .h2-left-lg-media {
-    margin-top: 30em;
-   }
-        
 }
