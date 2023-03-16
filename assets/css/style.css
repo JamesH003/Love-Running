@@ -269,7 +269,7 @@ li i {
 /* For larger to medium screens size from 1200px wide and down */
 @media screen and (max-width: 1200px) {
     #club-ethos {
-        width: 100%;
+        width: 80%;
         height: 1200px;
         margin: 0 auto;
         display: flex;
@@ -288,19 +288,23 @@ li i {
     align-items: center;
     flex-grow: 1;
     width: 100%;
-    
    }
+
+   .left, .right, .center {
+    width: 90%;
+    justify-content: center;
+}
 
    .left-about-heading {
     order: 1;
     padding: 0;
     margin: 0;
     /* text-align: center; */
-    width: 100%;
+    /* width: 100%; */
    }
 
    .left-about-heading {
-    padding-bottom: 50px;
+    padding-bottom: 65px;
    }
 
    .right-about-heading {
@@ -357,4 +361,35 @@ li i {
         padding-bottom: 20px;
     }
     
+    #cover-text {
+        left: 0;
+    }
+
+    #club-ethos {
+        width: 90%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+    .left, .right, .center {
+        width: 90%;
+        justify-content: center;
+    }
+
+    .right-about-heading {
+        padding-bottom: 45px;
+       }
+
+    .left-about-heading {
+        padding-bottom: 45px;
+    }
+
+    .left-about-heading h2, .right-about-heading h2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .left-about-heading p, .right-about-heading p {
+        text-align: center;
+    }
+
 }
